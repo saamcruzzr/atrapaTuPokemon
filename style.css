@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+/* body{
+    height: 100%;
+} */
+.contenedor{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.targeta{
+    border: 4px solid pink;
+    border-radius: 30px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+.nombre{
+    font-family: 'Kanit', sans-serif;
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.imagen-ditto{
+    width: 50%;
+}
+.targeta:hover{
+    background-color: palevioletred;
+}
