@@ -58,17 +58,17 @@ header{
     border: 4px solid rgb(173, 4, 4);
 }
 .nombre{
-    background-color: var(--color-tarjeta);
+    background-color: transparent;
     color: var(--color-nombres);
     font-size: 2rem;
     margin: 0;
 }
 .imagen-ditto{
-    background-color: var(--color-tarjeta);
-    width: 50%;
+    background-color: transparent;
+    /*width: 50%;*/
 }
 .tipo{
-    background-color: var(--color-tarjeta);
+    background-color: transparent;
     color: grey;
 }
 footer{
