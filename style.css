@@ -66,6 +66,8 @@ header{
 .imagen-ditto{
     background-color: transparent;
     /*width: 50%;*/
+    max-height: 300px;
+    max-width: 90%;
 }
 .tipo{
     background-color: transparent;
