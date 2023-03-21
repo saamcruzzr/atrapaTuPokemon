@@ -1,30 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 
-/* body{
-    height: 100%;
-} */
+:root{
+    --color-fondo: rgb(7, 11, 49);
+    --color-tarjeta: aliceblue;
+    --color-nombres: rgb(146, 113, 177);
+    --color-texto-default: rgb(215, 215, 215);
+}
+*{
+    background-color: var(--color-fondo);
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    color: var(--color-texto-default);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    flex-direction: column;
+}
+.logo{
+    height: 60%;
+    padding-top: 5%;
+}
+.titulo{
+    color: #ffe100;
+    font-size: 2.2rem;
+    height: 40%;
+    text-align: center;
+}
 .contenedor{
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 100vh;
-}
-.targeta{
-    border: 4px solid pink;
-    border-radius: 30px;
-    width: 50%;
-    height: 50%;
+    height: 70vh;
+    flex-direction: column;
     text-align: center;
 }
-.nombre{
-    font-family: 'Kanit', sans-serif;
-    color: blueviolet;
-    font-weight: 500;
+.quienEs{
+    margin-bottom: 2rem;
+    color: #ffee00;
     font-size: 2rem;
+    -webkit-text-stroke: .08rem #5191ff;
+    text-align: center;
+}
+.tarjeta{
+    border: 4px solid rgb(21, 4, 173);
+    background-color: var(--color-tarjeta);
+    border-radius: 30px;
+    width: 50%;
+    box-shadow: 0px 0px 20px 5px #ffee00;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tarjeta:active{
+    border: 4px solid rgb(173, 4, 4);
+}
+.nombre{
+    background-color: var(--color-tarjeta);
+    color: var(--color-nombres);
+    font-size: 2rem;
+    margin: 0;
 }
 .imagen-ditto{
+    background-color: var(--color-tarjeta);
     width: 50%;
 }
-.targeta:hover{
-    background-color: palevioletred;
+.tipo{
+    background-color: var(--color-tarjeta);
+    color: grey;
+}
+footer{
+    height: 5vh;
+    text-align: center;
+    font-size: 1rem;
+}
+footer img{
+    height: 1rem;
+    padding-left: 4px;
+    padding-right: 4px;
 }
